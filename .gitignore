@@ -1,0 +1,17 @@
+# editor
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+_.py[cod]
+_$py.class
+
+# Virtual environment
+.venv/
+
+# PyInstaller
+_.manifest
+_.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
