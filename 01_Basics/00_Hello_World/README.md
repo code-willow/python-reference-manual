@@ -9,51 +9,34 @@ The "Hello, World!" program is typically the simplest possible program that outp
 1.  **Verify Environment Setup:** It's a quick check to ensure that your Python interpreter is installed correctly and that you can run Python scripts.
 2.  **Introduce Basic Syntax:** It demonstrates the most fundamental command for outputting text in Python.
 
-## Why "Hello, World!"?
+You can see the code for this in the [01_hello.py](./01_hello.py) file.
 
-This tradition dates back to the early days of programming. It's a universally recognized first step because it's minimal, focuses on the core task of output, and provides immediate, satisfying feedback that your tools are working. If you can get "Hello, World!" to print, you're ready for more complex tasks!
+## Comments in Python
 
-## The Code: `hello.py`
+Comments are lines in your code that the Python interpreter ignores. They are crucial for making your code understandable to humans (including your future self!). Good comments explain the "why" behind your code, not just the "what".
 
-Let's look at the `hello.py` file in this folder:
+Python has two main types of comments:
 
-```python
-# This is a single-line comment.
-# Comments are ignored by the Python interpreter and are used to explain the code.
+1.  **Single-line comments:** These start with a hash symbol (`#`). Everything after the `#` on that line is considered a comment.
+2.  **Multi-line comments (Docstrings):** While technically multi-line strings, they are often used as comments when not assigned to a variable. They are enclosed in triple quotes (`"""..."""` or `'''...'''`).
 
-# The 'print()' function is a built-in Python function.
-# It is used to display output to the console (or screen).
-# The text inside the parentheses and quotes is called a 'string literal'.
-print("Hello, World!") # This comment explains what this specific line does.
+To see comments in action, check out the [02_comment.py](./02_comment.py) file.
 
-# You can also use triple quotes for multi-line comments, though they are technically multi-line strings not assigned to a variable.
-"""
-This is a multi-line comment (or a multi-line string used as a comment).
-It can span across multiple lines.
-This program simply prints the classic "Hello, World!" message to the console.
-It's often the first program new developers write to ensure their environment is set up correctly.
-"""
-```
-
-### Key Takeaways from `hello.py`:
-
--   **`print()` function:** This is how you display output in Python. Whatever you put inside the parentheses `()` will be shown on your screen.
--   **String Literals:** The text `"Hello, World!"` is a "string literal." In Python, text is enclosed in single quotes (`'...'`) or double quotes (`"..."`).
--   **Comments:** These are lines in your code that the Python interpreter ignores. They are crucial for making your code understandable to humans (including your future self!).
-
-    -   **Single-line comments:** Start with a hash symbol (`#`). Everything after `#` on that line is a comment.
-    -   **Multi-line comments (Docstrings):** While technically multi-line strings, they are often used as comments when not assigned to a variable. They are enclosed in triple quotes (`"""..."""` or `'''...'''`).
-
-## How to Run This Program
+## How to Run These Programs
 
 1.  **Open your terminal or command prompt.**
 2.  **Navigate to this folder:**
     ```bash
     cd 01_Basics/00_Hello_World/
     ```
-3.  **Run the Python script:**
+3.  **Run the Python scripts:**
+    To run the "Hello, World!" program:
     ```bash
-    python hello.py
+    python 01_hello.py
+    ```
+    To run the comments example:
+    ```bash
+    python 02_comment.py
     ```
 
-You should see `Hello, World!` printed to your console! Congratulations, you've run your first Python program!
+Congratulations on running your first Python programs!
